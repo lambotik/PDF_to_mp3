@@ -1,5 +1,4 @@
 from gtts import gTTS
-from art import tprint
 import pdfplumber
 from pathlib import Path
 
@@ -28,11 +27,11 @@ def pdf_to_mp3(file_path='test.pdf', language='en'):
         return 'File not exists, check the file path!'
 
 def main():
-    tprint('P D F---T O---M P 3', font='rnd-large')
-    file_path = input("\nEnter a file's path:")
+    file_path = input("\nEnter the path to the pdf file:")
     language = input("Choose language, for example 'en' or 'ru': ")
 
     print(pdf_to_mp3(file_path=file_path, language=language))
 
 if __name__ == '__main__':
     main()
+input()
