@@ -26,7 +26,7 @@ def pdf_to_mp3(file_path='test.pdf', language='en'):
         return 'File not exists, check the file path!'
 
 def main():
-    tprint('PDF>>>TO>>>MP3', font='block')
+    tprint('P D F---T O---M P 3', font='rnd-large')
     file_path = input("\nEnter a file's path:")
     language = input("Choose language, for example 'en' or 'ru': ")
 
